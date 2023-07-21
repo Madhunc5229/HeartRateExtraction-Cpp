@@ -33,7 +33,8 @@ void CalHeartRate::extractGreenChannel(cv::Mat &greenSignal, const bool &showPre
             break;
 
         cv::Mat foreheadFrame = frame(_foreheadRoI);
-
+        cv::cuda::GpuMat gpu_frame;
+        gpu_frame.upload(frame);
         // Extract the green channel
         cv::Mat greenChannel;
         cv::extractChannel(foreheadFrame, greenChannel, 1);

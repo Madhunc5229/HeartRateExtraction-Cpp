@@ -12,7 +12,7 @@ This is C++ software package which uses OpenCV library to extract heart rate in 
  - Linux (Ubuntu 20.04)
  - OpenCV 4.x
  - CMake
-
+ - GPU (CUDA 11.0)
 
 ## Building the package
 - Open a new terminal on your linux system and type the following commands 
