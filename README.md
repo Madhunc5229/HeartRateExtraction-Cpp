@@ -18,6 +18,7 @@ This is C++ software package which uses OpenCV library to extract heart rate in 
 
 #### Currently OpenCV 4.x version does not build with cuda 12.x versions
  - Link to the issue: https://stackoverflow.com/questions/74830272/build-opencv-with-cuda-12-undefined-identifiers-cudaunbindtexture-texturerefer
+ - One possible solution is downgrading my cuda version to 11.x but that is not compatible with my current linux drivers and my display drivers will stop working.
 
 <!-- ## Building the package
 - Open a new terminal on your linux system and type the following commands 
