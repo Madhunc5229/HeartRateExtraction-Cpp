@@ -14,6 +14,7 @@ This is C++ software package which uses OpenCV library to extract heart rate in 
  - CMake
  - GPU (CUDA 11.0)
 ## OpenCV 4.6.0 build error with CUDA 12.2 
+![cuda_build_error](https://github.com/Madhunc5229/HeartRateExtraction-Cpp/assets/61328094/f118fec0-cd2c-4e9c-80d3-173639615228)
 
 #### Currently OpenCV 4.x version does not build with cuda 12.x versions
  - Link to the issue: https://stackoverflow.com/questions/74830272/build-opencv-with-cuda-12-undefined-identifiers-cudaunbindtexture-texturerefer
